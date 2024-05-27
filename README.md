@@ -32,17 +32,17 @@ This is a workout tracker application built using the MERN stack (MongoDB, Expre
 
 2. Install the server dependencies:
     ```bash
-    cd server
+    cd backend
     npm install
     ```
 
 3. Install the client dependencies:
     ```bash
-    cd ../client
+    cd ../frontend
     npm install
     ```
 
-4. Create a `.env` file in the server directory and add the following environment variables:
+4. Create a `.env` file in the `backend` directory and add the following environment variables:
     ```
     MONGODB_URI=your_mongodb_uri
     JWT_SECRET=your_jwt_secret
@@ -50,13 +50,13 @@ This is a workout tracker application built using the MERN stack (MongoDB, Expre
 
 5. Start the development server:
     ```bash
-    # In the server directory
+    # In the backend directory
     npm run dev
     ```
 
 6. Start the React client:
     ```bash
-    # In the client directory
+    # In the frontend directory
     npm start
     ```
 
@@ -70,29 +70,32 @@ This is a workout tracker application built using the MERN stack (MongoDB, Expre
 ## Project Structure
 
 workout-tracker/
-├── client/ # React frontend
+├── backend/ # Express backend
+│ ├── controllers/
+│ ├── models/
+│ ├── node_modules/
+│ ├── routes/
+│ ├── .env
+│ ├── package-lock.json
+│ ├── package.json
+│ └── server.js
+├── frontend/ # React frontend
 │ ├── public/
 │ ├── src/
 │ │ ├── components/
 │ │ ├── pages/
 │ │ ├── App.js
 │ │ └── index.js
+│ ├── package-lock.json
 │ ├── package.json
-│ └── ...
-├── server/ # Express backend
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── server.js
-│ └── ...
-├── README.md
-└── ...
+│ └── README.md
 
+markdown
+Copy code
 
 ## Dependencies
 
-### Server (Express)
+### Backend (Express)
 
 - express
 - mongoose
@@ -100,7 +103,7 @@ workout-tracker/
 - bcryptjs
 - dotenv
 
-### Client (React)
+### Frontend (React)
 
 - react
 - react-dom
@@ -116,5 +119,3 @@ workout-tracker/
 - `POST /api/workouts` - Add a new workout
 - `PUT /api/workouts/:id` - Update a workout by ID
 - `DELETE /api/workouts/:id` - Delete a workout by ID
-
-
