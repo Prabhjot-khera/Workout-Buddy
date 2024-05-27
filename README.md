@@ -117,10 +117,4 @@ workout-tracker/
 - `PUT /api/workouts/:id` - Update a workout by ID
 - `DELETE /api/workouts/:id` - Delete a workout by ID
 
-## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
