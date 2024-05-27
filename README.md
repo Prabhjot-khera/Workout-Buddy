@@ -1,5 +1,5 @@
 # Workout-Buddy
-# Workout Tracker App
+
 
 This is a workout tracker application built using the MERN stack (MongoDB, Express, React, Node.js). The app allows users to track their workouts, monitor progress, and manage their fitness routines.
 
