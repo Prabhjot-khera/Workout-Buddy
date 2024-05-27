@@ -11,8 +11,6 @@ This is a workout tracker application built using the MERN stack (MongoDB, Expre
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
